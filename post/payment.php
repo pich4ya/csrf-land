@@ -13,12 +13,12 @@
             $error = "<h1>{$username}, <br/>Please top up your wallet!</h1>";
         }else{
         	$_SESSION['money'] = $new_balance;
-            $message = <<<EOL
+            $message = <<<HTML
 <h1>Thank You!</h1>
 <h3>Your wallet has been successfully charged for {$total_cost} Baht.</h3>
 <p>Username: {$username}</p>
 <p>Your money: {$new_balance} Baht</p>
-EOL;
+HTML;
         }
     }else{
         $error = '<h1>unauthorized access.</h1>';
