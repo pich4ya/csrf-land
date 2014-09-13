@@ -24,3 +24,6 @@ Links
 ----
 
 * 2600 Thailand Group: https://www.facebook.com/groups/2600Thailand/
+* Cross-Site Request Forgery (CSRF): https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
+* Testing for CSRF (OTG-SESS-005): https://www.owasp.org/index.php/Testing_for_CSRF_(OTG-SESS-005)
+* Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet: https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet
