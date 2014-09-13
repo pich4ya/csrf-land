@@ -18,7 +18,10 @@ Screenshots
 Installation
 ----
 
-You can download the latest tarball by clicking [here](https://github.com/pich4ya/csrf-land/archive/master.zip).
+1. You can download the latest tarball by clicking [here](https://github.com/pich4ya/csrf-land/archive/master.zip).
+2. Extract files into your web document root (ex. Apache 2)
+3. $ vim /etc/hosts
+127.0.0.1 localhost csrf-land.local
 
 Links
 ----
