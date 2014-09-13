@@ -1,6 +1,6 @@
 <?php
 
-// DO NOT CHEAT ! MAKE AN THE CSRF Attack ;)
+// DO NOT CHEAT ! MAKE AN CSRF Attack ;)
 session_start();
 
 if(isset($_GET['reset']))
@@ -27,7 +27,7 @@ if ( isset($_SESSION['role']) && $_SESSION['role']==='admin' )
 if(json_last_error()!==JSON_ERROR_NONE)
 {
 	die(json_encode([
-		'error' => '500 Internal Server Error 1'
+		'error' => '500 Internal Server Error'
 		]));
 }
 
@@ -42,7 +42,7 @@ switch ($_SERVER['REQUEST_METHOD'])
 	default:
 		$_SESSION['role']='user';
 		die(json_encode([
-			'error' => '500 Internal Server Error 2'
+			'error' => '500 Internal Server Error'
 			]));
 }
 
